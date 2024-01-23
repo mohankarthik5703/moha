@@ -99,7 +99,7 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #fff;
+    color: #f19306;
     font-size: 35px;
     font-weight: 600;
     cursor: pointer;
@@ -109,7 +109,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-    color: #fff;
+    color: #0770e7;
 }
 .navbar .menu li{
     list-style: none;
@@ -117,7 +117,7 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color: #fff;
+    color: #f18c08;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -171,7 +171,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("https://images.pexels.com/photos/4360449/pexels-photo-4360449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") no-repeat center;
+    background: url("/photos/bb.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -365,7 +365,7 @@ section .title::after{
     border-radius: 8px;
     transition: 0.5s;
     transform: skewX(15deg);
-    filter: blur(30px);
+    filter: blur(0.5px);
     transition: 0.5s;
 }
 .container .box:hover:before,
@@ -413,7 +413,7 @@ section .title::after{
     background:rgba(255, 255, 255, 0.05);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    filter: blur(10px);
+    filter: blur(0.5px);
     z-index: 1;
     transition: 0.5s;
     color: #fff;
@@ -726,16 +726,16 @@ section .title::after{
     width: 60%;
 }
 .skills-content .right .js::before{
-    width: 50%;
+    width: 20%;
 }
 .skills-content .right .php::before{
-    width: 50%;
+    width: 30%;
 }
 .skills-content .right .mysql::before{
-    width: 85%;
+    width: 5%;
 }
 .skills-content .right .wordpress::before{
-    width: 75%;
+    width: 90%;
 }
 
 
